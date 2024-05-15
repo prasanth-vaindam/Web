@@ -1,0 +1,40 @@
+
+
+.main{
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid green;
+    float: left;
+   
+}
+
+.box1{
+    background-color: aquamarine;
+    width: 33%;
+    height: fit-content;
+     margin: 4px;
+
+
+}
+.box2{
+    background-color: rgb(181, 143, 242);
+    width: 33%;
+    height: fit-content;
+     margin: 4px;
+
+
+}
+.box3{
+    background-color: rgb(247, 249, 145);
+    width: 33%;
+    height: fit-content;
+     margin: 4px;
+
+
+}
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%; /* Adjusting width to 100% when resolution is below 600px */
+  }
+}

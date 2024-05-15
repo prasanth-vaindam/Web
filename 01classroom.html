@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion Demo</title>
+    <style>
+        html {
+            margin: 0;
+            /* position: relative; */
+        }
+
+        body {
+            /* margin: 10px; */
+        }
+
+        .container {
+            border: 2px double rgb(253, 3, 3);
+            margin: 10px;
+            /* position: relative; */
+
+        }
+
+        .box {
+            border: 2px solid black;
+            margin: 4px;
+            width: 80vw;
+            height: 50px;
+        }
+
+        .box1 {
+            background-color: red;
+            padding-top: 25px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .box2 {
+            position: absolute;
+            /* z-index: -1; */
+            bottom: 100px;
+            background-color: green;
+            padding-top: 25px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .box3 {
+            opacity: 100%;
+            background-color: blue;
+            padding-top: 25px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </div>
+</body>
+
+</html>
